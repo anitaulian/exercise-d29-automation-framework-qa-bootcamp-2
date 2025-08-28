@@ -12,7 +12,7 @@ import org.testng.annotations.Test;
 
 import java.sql.Driver;
 
-public class LoginTest extends BaseTest {
+public class LoginTest2 extends BaseTest {
     // ======Test Runner: TestNG vs JUnit======
     // [Test runner] kalau run yang groupingnya "regression" maka akan run yang regression
     // [Test runner] kalau run yang groupingnya "smoke" maka akan run yang smoke
@@ -23,7 +23,7 @@ public class LoginTest extends BaseTest {
 //        loginPage.login("standard_user", "secret_sauce");
 //    }
 
-//    //[Assertions] --  Example for static define data provider untuk wrongLoginData -- bisa run banyak data tp skenario test sama
+//    //[Assertions] -- Data Provider untuk wrongLoginData -- bisa run banyak data tp skenario test sama
 //    @DataProvider(name = "wrongLoginData")
 //    public Object[][] wrongLoginData() {
 //        return new Object[][] {
